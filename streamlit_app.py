@@ -41,20 +41,23 @@ with st.sidebar:
     empresas = st.multiselect(
         'Empresa',
         list(df['EMPRESA'].unique()),
+        list(df['EMPRESA'].unique())
         )
     ufs = st.multiselect(
         'Estados',
+        list(df['UF'].unique()),
         list(df['UF'].unique()),
         )
 
     status = st.multiselect(
         'Status',
         list(df['STATUS'].unique()),
+        list(df['STATUS'].unique()),
         )
     
     size = st.slider(
         'Tamanho da descrição',
-        0, 2000, 100)    
+        0, 2000, 0)    
 
 
 copy = df.copy()
