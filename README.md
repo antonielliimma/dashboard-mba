@@ -25,3 +25,9 @@ Alguns botões devem ser implementados no painel para operar filtros dinâmicos.
 3. Seletor por **STATUS**
 
 4. Seletor de tamanho do texto 
+
+
+
+#URL do Projeto
+
+https://dashboard-mba.streamlit.app/
